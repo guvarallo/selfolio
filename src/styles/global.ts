@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
-  
   * {
     margin: 0;
     padding: 0;
@@ -16,7 +15,6 @@ export default createGlobalStyle`
 
   body, input, button {
     font-family: 'Poppins';
-    font-size: 16px;
     text-align: center;
 
   }
@@ -25,8 +23,26 @@ export default createGlobalStyle`
     margin: 0 auto;
   }
 
-  h1, h2, h3, h4, h5, h6, strong {
-    font-weight: 500;
+  h1 {
+    font-weight: 700;
+  }
+
+  p,
+  a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+  }
+
+  a,
+  a:link,
+  a:hover,
+  a:visited,
+  a:active {
+    text-decoration: none;
+  }
+
+  a:hover {
+    transition: all 0.3s ease-in-out;
   }
 
   button {
