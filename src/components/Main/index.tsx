@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 import { mainData } from '../../source/data';
 import { Outdoor } from './styles';
+import { Cta } from '../../styles/cta';
 
 const Main: React.FC = () => {
   const { title, name, subtitle, cta } = mainData;
@@ -15,11 +16,10 @@ const Main: React.FC = () => {
           {title}
           <span>{name}</span>
         </h1>
-        <br />
-        {subtitle}
+        <div className="text-typing">{subtitle}</div>
       </Fade>
       <Fade duration={1000} delay={1000} distance="30px">
-        <button type="button">{cta}</button>
+        <Cta href="test">{cta}</Cta>
       </Fade>
     </Outdoor>
     // <section id="hero" className="jumbotron">

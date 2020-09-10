@@ -1,19 +1,71 @@
 import styled from 'styled-components';
-import { lighten } from 'polished';
 
 export const Outdoor = styled.section`
-  button {
-    width: 200px;
-    height: 70px;
-    border-radius: 0 5px 5px 0;
-    border: 0;
-    background: #000;
-    color: #fff;
-    font-weight: bold;
-    transition: background-color 0.2s;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #fff;
+  font-weight: bold;
+  color: black;
+  margin-left: 65px;
+  z-index: -1;
 
-    &:hover {
-      background: ${lighten(0.4, '#000')};
+  h1 {
+    white-space: nowrap;
+    max-width: fit-content;
+    font-weight: bold;
+  }
+
+  span {
+    background: linear-gradient(135deg, #1488cc 0%, #2b32b2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-typing {
+    overflow: hidden;
+    font-size: 1.3em;
+    white-space: nowrap;
+    max-width: fit-content;
+    border-right: 0.5em solid black;
+    animation: typing 2.5s steps(40, end), blink 1s step-end infinite !important;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
     }
   }
+
+  @keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  /* @media (max-width: 75em) {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 56.25em) {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+
+  @media (max-width: 37.5em) {
+    font-size: 10%;
+  }
+
+  @media (max-width: 20em) {
+    font-size: 1rem;
+  } */
 `;

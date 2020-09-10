@@ -7,7 +7,7 @@ export const headData = {
 };
 
 export const mainData = {
-  title: 'Olá, meu nome é',
+  title: 'Olá, meu nome é ',
   name: 'Gustavo Varallo',
   subtitle: 'Eu sou um desenvolvedor de software',
   cta: 'Saiba mais',
