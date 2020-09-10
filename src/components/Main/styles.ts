@@ -21,6 +21,7 @@ export const Outdoor = styled.section`
 
   span {
     background: linear-gradient(135deg, #1488cc 0%, #2b32b2 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
