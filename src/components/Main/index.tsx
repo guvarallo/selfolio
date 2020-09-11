@@ -1,6 +1,5 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-// import { Link } from 'react-scroll';
 
 import { mainData } from '../../source/data';
 import { Outdoor } from './styles';
@@ -18,8 +17,8 @@ const Main: React.FC = () => {
         </h1>
         <div className="text-typing">{subtitle}</div>
       </Fade>
-      <Fade duration={1000} delay={1000} distance="30px">
-        <Cta href="test">{cta}</Cta>
+      <Fade duration={1000} delay={1500} distance="30px">
+        <Cta href="#">{cta}</Cta>
       </Fade>
     </Outdoor>
   );
