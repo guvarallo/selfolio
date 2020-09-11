@@ -33,6 +33,7 @@ export const Cta = styled.a`
     text-decoration: none;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: white !important;
+    cursor: pointer;
 
     &::after {
       width: 100%;
