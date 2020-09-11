@@ -18,11 +18,12 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin: 2rem 2rem;
+    padding-bottom: 4rem;
 
     div {
       flex: 1;
-      margin-bottom: 4em;
       text-align: center;
+      max-width: 550px;
 
       img {
         transition: 0.7s ease-in-out;
@@ -35,8 +36,10 @@ export const Container = styled.div`
       }
 
       p {
-        font-size: 0.8em;
+        font-size: 0.7em;
         margin: 1em 0;
+        text-align: left;
+        font-weight: 400;
       }
     }
   }
