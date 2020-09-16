@@ -65,3 +65,8 @@ export const contactData = {
   description: 'Me envie um email!',
   mailTo: 'mailto:test@test.com',
 };
+
+export const FooterData = {
+  githubUrl: '#!',
+  linkedinUrl: '#!',
+};

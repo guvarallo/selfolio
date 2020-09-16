@@ -2,7 +2,22 @@ import styled from 'styled-components';
 
 export const Container = styled.footer`
   background: #1e1f26;
+  color: #283655;
   height: 12em;
+
+  a {
+    color: #283655;
+    transition: 0.5s;
+
+    &:hover {
+      color: #d0e1f9;
+    }
+  }
+
+  svg {
+    display: block;
+    margin: auto;
+  }
 
   div {
     display: flex;
@@ -11,10 +26,10 @@ export const Container = styled.footer`
 
     svg {
       margin: 0.7em;
-      margin-top: 2em;
-      text-align: center;
+      margin-top: 1em;
       transition: 0.5s;
       cursor: pointer;
+      color: #283655;
     }
 
     svg:hover {
@@ -32,14 +47,14 @@ export const Container = styled.footer`
   span {
     display: block;
     margin-top: 1em;
-    color: #283655;
     font-size: 13px;
     text-align: center;
+    color: #283655;
 
     a {
-      color: #283655;
       cursor: pointer;
       transition: 0.5s;
+      color: #283655;
 
       &:hover {
         color: #d0e1f9;

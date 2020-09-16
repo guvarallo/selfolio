@@ -21,7 +21,7 @@ const Main: React.FC = () => {
   }, []);
 
   return (
-    <Outdoor>
+    <Outdoor id="main">
       <Fade left duration={1000} delay={500} distance="30px">
         <h1>
           {title}
