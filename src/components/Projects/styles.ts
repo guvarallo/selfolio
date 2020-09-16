@@ -47,7 +47,7 @@ export const Container = styled.section`
 export const Link = styled.a`
   display: inline-block;
   margin-left: 1em !important;
-  background: linear-gradient(-45deg, #1e1f26, #d0e1f9, #283655, #4d648d);
+  background: linear-gradient(-45deg, #1e1f26, #283655, #4d648d);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

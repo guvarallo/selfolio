@@ -10,7 +10,7 @@ export const Container = styled.footer`
     transition: 0.5s;
 
     &:hover {
-      color: #d0e1f9;
+      color: #fff;
     }
   }
 
@@ -33,7 +33,7 @@ export const Container = styled.footer`
     }
 
     svg:hover {
-      color: #d0e1f9;
+      color: #fff;
     }
   }
 
@@ -57,7 +57,7 @@ export const Container = styled.footer`
       color: #283655;
 
       &:hover {
-        color: #d0e1f9;
+        color: #fff;
       }
     }
   }

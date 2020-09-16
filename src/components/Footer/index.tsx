@@ -42,6 +42,9 @@ const Footer: React.FC = () => {
         </a>
       </div>
       <hr />
+
+      {/* Se puder deixar meus créditos agradeço! :) */}
+
       <span className="copyright">
         © {new Date().getFullYear()} - Template desenvolvido por
         <a

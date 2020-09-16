@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   background: linear-gradient(135deg, #1e1f26, #283655, #4d648d, #d0e1f9);
-  color: #d0e1f9;
+  color: #fff;
 
   h1 {
     text-align: center;
@@ -27,8 +27,8 @@ export const Container = styled.div`
     a {
       margin: 0;
       margin-bottom: 2em;
-      border: 2px solid #d0e1f9;
-      background: #d0e1f9;
+      border: 2px solid #fff;
+      background: #fff;
       -webkit-background-clip: text;
 
       &::after {
@@ -41,13 +41,7 @@ export const Container = styled.div`
         bottom: 0;
         z-index: -1;
         transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
-        background-image: linear-gradient(
-          -45deg,
-          #d0e1f9,
-          #d0e1f9,
-          #d0e1f9,
-          #d0e1f9
-        );
+        background-image: linear-gradient(-45deg, #fff, #fff, #fff, #fff);
       }
 
       &:hover {
