@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 import { aboutData } from '../../source/data';
 import { Container } from './styles';
 
-import profilePicture from '../../assets/profile.jpg';
+import profilePicture from '../../assets/profile.png';
 
 const About: React.FC = () => {
   const { p1, p2, p3 } = aboutData;

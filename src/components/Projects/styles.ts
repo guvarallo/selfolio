@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   background: #fff;
+  text-align: center;
+  align-items: center;
+  margin: 2rem 2rem;
 
   h1 {
     text-align: center;
@@ -15,13 +18,14 @@ export const Container = styled.section`
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
 
   .project-text {
-    max-width: 30%;
     margin-left: 3em;
     text-align: justify;
     font-size: 0.7em;
+    max-width: 500px;
 
     h3 {
       margin-bottom: 1em;
@@ -33,7 +37,6 @@ export const Container = styled.section`
   }
 
   img {
-    width: 80%;
     margin-left: 3rem !important;
     max-height: 350px;
     border: none;

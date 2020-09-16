@@ -27,7 +27,7 @@ export const Container = styled.div`
 
       img {
         transition: 0.7s ease-in-out;
-        filter: grayscale(70%);
+        filter: grayscale(80%);
 
         &:hover {
           transform: scale3d(1.12, 1.12, 1.12) rotateZ(-0.02turn);
