@@ -9,10 +9,10 @@ export const Container = styled.section`
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 3rem;
   }
 
   .row {
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
   }
@@ -26,12 +26,32 @@ export const Container = styled.section`
     h3 {
       margin-bottom: 1em;
     }
+
+    a {
+      margin-left: 0;
+    }
   }
 
   img {
-    width: 90%;
-    margin: 0 2rem;
+    width: 80%;
+    margin-left: 3rem !important;
+    max-height: 350px;
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+`;
+
+export const Link = styled.a`
+  display: inline-block;
+  margin-left: 1em !important;
+  background: linear-gradient(-45deg, #1e1f26, #d0e1f9, #283655, #4d648d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateX(5px);
   }
 `;

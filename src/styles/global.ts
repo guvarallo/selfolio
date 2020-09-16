@@ -30,8 +30,4 @@ export default createGlobalStyle`
   a:active {
     text-decoration: none;
   }
-
-  a:hover {
-    transition: all 0.3s ease-in-out;
-  }
 `;

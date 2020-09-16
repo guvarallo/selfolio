@@ -38,8 +38,8 @@ export const Cta = styled.a`
 
   &:hover {
     text-decoration: none;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: white !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
     cursor: pointer;
 
     &::after {
