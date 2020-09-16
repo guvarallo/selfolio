@@ -1,4 +1,7 @@
-// import { nanoid } from 'nanoid';
+import project1 from '../assets/project1.png';
+import project2 from '../assets/project2.png';
+import project3 from '../assets/project3.png';
+
 export const headData = {
   title: 'Nome | Desenvolvedor',
   description: 'Bem vindo ao meu site',
@@ -27,10 +30,33 @@ export const aboutData = {
 
 export const projectData = [
   {
-    title: 'Projeto ABC',
+    title: 'Projeto 1',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
+    liveUrl: '!#',
+    sourceUrl: '!#',
+    img: { src: project1 },
+  },
+  {
+    title: 'Projeto 2',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
+    gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
+    scelerisque magna sit amet ex condimentum varius.`,
+    liveUrl: '!#',
+    sourceUrl: '!#',
+    img: { src: project2 },
+  },
+  {
+    title: 'Projeto 3',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
+    gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
+    scelerisque magna sit amet ex condimentum varius.`,
+    liveUrl: '!#',
+    sourceUrl: '!#',
+    img: { src: project3 },
   },
 ];
