@@ -1,5 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import Tilt from 'react-parallax-tilt';
 
 import { Container } from './styles';
 
@@ -24,9 +25,11 @@ const Project: React.FC = () => {
           </Fade>
         </div>
         <Fade duration={1000} delay={1100} distance="30px">
-          <div className="project-img">
-            <img src={projectImg} alt="project" />
-          </div>
+          <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
+            <div className="project-img">
+              <img src={projectImg} alt="project" />
+            </div>
+          </Tilt>
         </Fade>
       </section>
     </Container>
