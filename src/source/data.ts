@@ -10,7 +10,7 @@ export const headData = {
 export const mainData = {
   title: 'Olá, meu nome é ',
   name: 'Fulando de Tal',
-  subtitle: 'Eu sou um desenvolvedor de software',
+  subtitle: 'Eu sou programador web',
   cta: 'Saiba mais',
 };
 
@@ -60,3 +60,8 @@ export const projectData = [
     img: { src: project3 },
   },
 ];
+
+export const contactData = {
+  description: 'Me envie um email!',
+  mailTo: 'mailto:test@test.com',
+};
