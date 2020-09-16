@@ -11,9 +11,9 @@ export const Cta = styled.a`
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
   border: 2px solid transparent;
-  border-image: linear-gradient(135deg, #bbc3c6 0%, #962715 100%);
+  border-image: linear-gradient(-45deg, #1e1f26, #283655, #4d648d, #d0e1f9);
   border-image-slice: 1;
-  background: linear-gradient(135deg, #bbc3c6 0%, #962715 100%);
+  background: linear-gradient(-45deg, #1e1f26, #283655, #4d648d, #d0e1f9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -27,7 +27,13 @@ export const Cta = styled.a`
     bottom: 0;
     z-index: -1;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
-    background-image: linear-gradient(135deg, #962715 0%, #bbc3c6 100%);
+    background-image: linear-gradient(
+      -45deg,
+      #1e1f26,
+      #283655,
+      #4d648d,
+      #d0e1f9
+    );
   }
 
   &:hover {

@@ -6,7 +6,7 @@ export const headData = {
 
 export const mainData = {
   title: 'Olá, meu nome é ',
-  name: 'Gustavo Varallo',
+  name: 'Fulando de Tal',
   subtitle: 'Eu sou um desenvolvedor de software',
   cta: 'Saiba mais',
 };
@@ -24,3 +24,13 @@ export const aboutData = {
   elementum sit amet. In aliquet purus ut mauris auctor, quis commodo libero 
   dignissim. In tristique mi ut mi vulputate convallis.`,
 };
+
+export const projectData = [
+  {
+    title: 'Projeto ABC',
+    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
+    gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
+    scelerisque magna sit amet ex condimentum varius.`,
+  },
+];

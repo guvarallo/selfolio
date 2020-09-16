@@ -7,40 +7,36 @@ export const Outdoor = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: linear-gradient(-45deg, #fff, #962715, #1e1e20, #bbc3c6);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background: #fff;
   font-weight: bold;
   z-index: -1;
-
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
 
   h1 {
     margin-left: 65px;
     white-space: nowrap;
     max-width: fit-content;
     font-weight: bold;
-    background: linear-gradient(135deg, #bbc3c6 0%, #962715 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   span {
-    background: #bbc3c6;
+    background: linear-gradient(-45deg, #283655, #4d648d, #d0e1f9);
+    background-size: 400% 400%;
+    animation: gradient 2.5s ease infinite;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
   }
 
   .text-typing {
@@ -50,10 +46,6 @@ export const Outdoor = styled.section`
     white-space: nowrap;
     max-width: fit-content;
     border-right: 0.5em solid black;
-    background: linear-gradient(135deg, #bbc3c6 0%, #962715 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     animation: typing 2.5s steps(40, end), blink 1s step-end infinite !important;
   }
 
@@ -72,7 +64,7 @@ export const Outdoor = styled.section`
       border-color: transparent;
     }
     50% {
-      border-color: #bbc3c6;
+      border-color: #1e1f26;
     }
   }
   /* @media (max-width: 75em) {
