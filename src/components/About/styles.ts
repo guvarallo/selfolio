@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: linear-gradient(135deg, #1488cc 0%, #2b32b2 100%);
-  color: white;
+  background: #bbc3c6;
+  color: #1e1e20;
 
   h1 {
     text-align: center;

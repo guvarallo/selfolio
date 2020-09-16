@@ -7,31 +7,53 @@ export const Outdoor = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: #fff;
+  background: linear-gradient(-45deg, #fff, #962715, #1e1e20, #bbc3c6);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
   font-weight: bold;
-  color: black;
-  margin-left: 65px;
   z-index: -1;
 
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
   h1 {
+    margin-left: 65px;
     white-space: nowrap;
     max-width: fit-content;
     font-weight: bold;
+    background: linear-gradient(135deg, #bbc3c6 0%, #962715 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   span {
-    background: linear-gradient(135deg, #1488cc 0%, #2b32b2 100%);
+    background: #bbc3c6;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .text-typing {
+    margin-left: 65px;
     overflow: hidden;
     font-size: 1.3em;
     white-space: nowrap;
     max-width: fit-content;
     border-right: 0.5em solid black;
+    background: linear-gradient(135deg, #bbc3c6 0%, #962715 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     animation: typing 2.5s steps(40, end), blink 1s step-end infinite !important;
   }
 
@@ -50,7 +72,7 @@ export const Outdoor = styled.section`
       border-color: transparent;
     }
     50% {
-      border-color: black;
+      border-color: #bbc3c6;
     }
   }
   /* @media (max-width: 75em) {

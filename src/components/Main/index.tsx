@@ -29,7 +29,7 @@ const Main: React.FC = () => {
         </h1>
         <div className="text-typing">{subtitle}</div>
       </Fade>
-      <Fade duration={1000} delay={1500} distance="30px">
+      <Fade left duration={1000} delay={1500} distance="30px">
         <Cta onClick={() => scrollTo(document.getElementById('about'))}>
           {cta}
         </Cta>
