@@ -51,6 +51,7 @@ export const Container = styled.div`
       }
 
       &:hover {
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: #283655;
       }
