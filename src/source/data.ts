@@ -10,13 +10,13 @@ export const colors = {
 };
 
 export const headData = {
-  title: 'Nome | Desenvolvedor',
-  description: 'Bem vindo ao meu site',
+  title: 'Fulano | Programador',
+  description: 'Bem vindo ao site do Fulano de Tal',
 };
 
 export const mainData = {
   title: 'Olá, meu nome é ',
-  name: 'Fulando de Tal',
+  name: 'Fulano de Tal',
   subtitle: 'Eu sou programador web',
   cta: 'Saiba mais',
 };

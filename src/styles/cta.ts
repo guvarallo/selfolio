@@ -4,9 +4,8 @@ import { colors } from '../source/data';
 export const Cta = styled.a`
   display: inline-block;
   position: relative;
+  margin-top: 1em;
   padding: 0.5rem;
-  margin-top: 20px;
-  margin-left: 65px;
   font-weight: bold;
   line-height: 1;
   z-index: 1;

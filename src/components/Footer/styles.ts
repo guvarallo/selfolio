@@ -4,7 +4,7 @@ import { colors } from '../../source/data';
 export const Container = styled.footer`
   background: ${colors.first};
   color: ${colors.second};
-  height: 12em;
+  height: 10em;
 
   a {
     color: ${colors.second};
@@ -48,7 +48,7 @@ export const Container = styled.footer`
   span {
     display: block;
     margin-top: 1em;
-    font-size: 13px;
+    font-size: 0.5em;
     text-align: center;
     color: ${colors.second};
 

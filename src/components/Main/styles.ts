@@ -4,6 +4,7 @@ import { colors } from '../../source/data';
 export const Outdoor = styled.section`
   min-height: 100vh;
   height: 100vh;
+  margin-left: 3em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +14,6 @@ export const Outdoor = styled.section`
   z-index: -1;
 
   h1 {
-    margin-left: 65px;
     white-space: nowrap;
     max-width: fit-content;
     font-weight: bold;
@@ -46,7 +46,6 @@ export const Outdoor = styled.section`
   }
 
   .text-typing {
-    margin-left: 65px;
     overflow: hidden;
     font-size: 1.3em;
     white-space: nowrap;
@@ -73,20 +72,4 @@ export const Outdoor = styled.section`
       border-color: ${colors.first};
     }
   }
-  /* @media (max-width: 75em) {
-    font-size: 1rem;
-  }
-  
-  @media (max-width: 56.25em) {
-    font-size: 3.6rem;
-    text-align: center;
-  }
-
-  @media (max-width: 37.5em) {
-    font-size: 10%;
-  }
-
-  @media (max-width: 20em) {
-    font-size: 1rem;
-  } */
 `;

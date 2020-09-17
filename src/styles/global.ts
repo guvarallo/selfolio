@@ -11,7 +11,7 @@ export default createGlobalStyle`
 
   html {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1.5vw;
     color: ${colors.first};
   }
 

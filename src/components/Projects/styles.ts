@@ -34,6 +34,8 @@ export const Container = styled.section`
 
     a {
       margin-left: 0;
+      margin-right: 1em;
+      margin-bottom: 0.7em;
     }
   }
 
@@ -47,7 +49,6 @@ export const Container = styled.section`
 
 export const Link = styled.a`
   display: inline-block;
-  margin-left: 1em !important;
   background: linear-gradient(
     -45deg,
     ${colors.first},
