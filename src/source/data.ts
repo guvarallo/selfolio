@@ -3,10 +3,10 @@ import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 
 export const colors = {
-  first: '#1e1f26',
-  second: '#283655',
-  third: '#4d648d',
-  fourth: '#d0e1f9',
+  first: '#232122',
+  second: '#fd3c3c',
+  third: '#138d90',
+  fourth: '#dddede',
 };
 
 export const headData = {

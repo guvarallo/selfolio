@@ -27,7 +27,7 @@ export const Outdoor = styled.section`
       ${colors.fourth}
     );
     background-size: 400% 400%;
-    animation: gradient 2.5s ease infinite;
+    animation: gradient 3.5s ease infinite;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

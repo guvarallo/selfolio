@@ -2,13 +2,7 @@ import styled from 'styled-components';
 import { colors } from '../../source/data';
 
 export const Container = styled.div`
-  background: linear-gradient(
-    135deg,
-    ${colors.first},
-    ${colors.second},
-    ${colors.third},
-    ${colors.fourth}
-  );
+  background: linear-gradient(135deg, ${colors.first}, ${colors.second});
   color: #fff;
 
   h1 {

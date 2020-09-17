@@ -3,11 +3,11 @@ import { colors } from '../../source/data';
 
 export const Container = styled.footer`
   background: ${colors.first};
-  color: ${colors.second};
+  color: ${colors.third};
   height: 10em;
 
   a {
-    color: ${colors.second};
+    color: ${colors.third};
     transition: 0.5s;
 
     &:hover {
@@ -30,7 +30,7 @@ export const Container = styled.footer`
       margin-top: 1em;
       transition: 0.5s;
       cursor: pointer;
-      color: ${colors.second};
+      color: ${colors.third};
     }
 
     svg:hover {
@@ -39,10 +39,17 @@ export const Container = styled.footer`
   }
 
   hr {
-    border: 0;
     width: 50%;
     margin: auto;
-    border-top: 2px solid ${colors.second};
+    border-top: 0.1px solid transparent;
+    border-image: linear-gradient(
+      -45deg,
+      ${colors.first},
+      ${colors.second},
+      ${colors.third},
+      ${colors.fourth}
+    );
+    border-image-slice: 1;
   }
 
   span {
@@ -50,12 +57,12 @@ export const Container = styled.footer`
     margin-top: 1em;
     font-size: 0.5em;
     text-align: center;
-    color: ${colors.second};
+    color: ${colors.third};
 
     a {
       cursor: pointer;
       transition: 0.5s;
-      color: ${colors.second};
+      color: ${colors.third};
 
       &:hover {
         color: #fff;

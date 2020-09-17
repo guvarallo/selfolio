@@ -41,7 +41,7 @@ export const Container = styled.section`
 
   img {
     margin-left: 3rem !important;
-    max-height: 350px;
+    max-height: 30vw;
     border: none;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
