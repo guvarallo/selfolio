@@ -1,3 +1,5 @@
+import profilePicture from '../assets/profile.png';
+
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
@@ -22,6 +24,7 @@ export const mainData = {
 };
 
 export const aboutData = {
+  img: { src: profilePicture },
   p1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit 
   vehicula lectus. Suspendisse potenti. Ut eget odio eget dolor maximus pharetra 
   eu a risus. Cras elit leo, commodo nec risus in.`,

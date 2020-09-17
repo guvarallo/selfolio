@@ -10,7 +10,7 @@ export const Cta = styled.a`
   line-height: 1;
   z-index: 1;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   border-image: linear-gradient(
     -45deg,
     ${colors.first},

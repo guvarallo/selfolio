@@ -4,10 +4,8 @@ import Fade from 'react-reveal/Fade';
 import { aboutData } from '../../source/data';
 import { Container } from './styles';
 
-import profilePicture from '../../assets/profile.png';
-
 const About: React.FC = () => {
-  const { p1, p2, p3 } = aboutData;
+  const { img, p1, p2, p3 } = aboutData;
 
   return (
     <Container id="about">
@@ -17,7 +15,7 @@ const About: React.FC = () => {
       <section>
         <Fade duration={1000} delay={700} distance="30px">
           <div className="left">
-            <img src={profilePicture} alt="profile" />
+            <img src={img.src} alt="profile" />
           </div>
         </Fade>
         <Fade duration={1000} delay={1100} distance="30px">
