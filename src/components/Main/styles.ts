@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colors } from '../../source/data';
 
 export const Outdoor = styled.section`
   min-height: 100vh;
@@ -19,7 +20,12 @@ export const Outdoor = styled.section`
   }
 
   span {
-    background: linear-gradient(-45deg, #283655, #4d648d, #d0e1f9);
+    background: linear-gradient(
+      -45deg,
+      ${colors.second},
+      ${colors.third},
+      ${colors.fourth}
+    );
     background-size: 400% 400%;
     animation: gradient 2.5s ease infinite;
     background-clip: text;
@@ -64,7 +70,7 @@ export const Outdoor = styled.section`
       border-color: transparent;
     }
     50% {
-      border-color: #1e1f26;
+      border-color: ${colors.first};
     }
   }
   /* @media (max-width: 75em) {

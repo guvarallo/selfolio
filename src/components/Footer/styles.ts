@@ -1,12 +1,13 @@
 import styled from 'styled-components';
+import { colors } from '../../source/data';
 
 export const Container = styled.footer`
-  background: #1e1f26;
-  color: #283655;
+  background: ${colors.first};
+  color: ${colors.second};
   height: 12em;
 
   a {
-    color: #283655;
+    color: ${colors.second};
     transition: 0.5s;
 
     &:hover {
@@ -29,7 +30,7 @@ export const Container = styled.footer`
       margin-top: 1em;
       transition: 0.5s;
       cursor: pointer;
-      color: #283655;
+      color: ${colors.second};
     }
 
     svg:hover {
@@ -41,7 +42,7 @@ export const Container = styled.footer`
     border: 0;
     width: 50%;
     margin: auto;
-    border-top: 2px solid #283655;
+    border-top: 2px solid ${colors.second};
   }
 
   span {
@@ -49,12 +50,12 @@ export const Container = styled.footer`
     margin-top: 1em;
     font-size: 13px;
     text-align: center;
-    color: #283655;
+    color: ${colors.second};
 
     a {
       cursor: pointer;
       transition: 0.5s;
-      color: #283655;
+      color: ${colors.second};
 
       &:hover {
         color: #fff;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { colors } from '../../source/data';
 
 export const Container = styled.section`
   background: #fff;
@@ -47,7 +48,13 @@ export const Container = styled.section`
 export const Link = styled.a`
   display: inline-block;
   margin-left: 1em !important;
-  background: linear-gradient(-45deg, #1e1f26, #283655, #4d648d);
+  background: linear-gradient(
+    -45deg,
+    ${colors.first},
+    ${colors.second},
+    ${colors.third},
+    ${colors.fourth}
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

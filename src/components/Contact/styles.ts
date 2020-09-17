@@ -1,7 +1,14 @@
 import styled from 'styled-components';
+import { colors } from '../../source/data';
 
 export const Container = styled.div`
-  background: linear-gradient(135deg, #1e1f26, #283655, #4d648d, #d0e1f9);
+  background: linear-gradient(
+    135deg,
+    ${colors.first},
+    ${colors.second},
+    ${colors.third},
+    ${colors.fourth}
+  );
   color: #fff;
 
   h1 {
@@ -47,7 +54,7 @@ export const Container = styled.div`
       &:hover {
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: #283655;
+        -webkit-text-fill-color: ${colors.second};
       }
     }
   }

@@ -2,6 +2,13 @@ import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 
+export const colors = {
+  first: '#1e1f26',
+  second: '#283655',
+  third: '#4d648d',
+  fourth: '#d0e1f9',
+};
+
 export const headData = {
   title: 'Nome | Desenvolvedor',
   description: 'Bem vindo ao meu site',
