@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
     <Container id="Footer">
       <br />
       <a href="#!" onClick={() => scrollTo(document.getElementById('main'))}>
-        <FontAwesomeIcon icon={faChevronUp} size="1x" />
+        <FontAwesomeIcon id="up" icon={faChevronUp} size="1x" />
       </a>
       <div>
         <a
