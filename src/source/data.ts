@@ -41,7 +41,9 @@ export const aboutData = {
 export const projectData = [
   {
     title: 'Projeto 1',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    description1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Suspendisse rhoncus lectus vitae pulvinar scelerisque.`,
+    description2: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
@@ -51,7 +53,9 @@ export const projectData = [
   },
   {
     title: 'Projeto 2',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    description1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Suspendisse rhoncus lectus vitae pulvinar scelerisque.`,
+    description2: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
@@ -61,7 +65,9 @@ export const projectData = [
   },
   {
     title: 'Projeto 3',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    description1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Suspendisse rhoncus lectus vitae pulvinar scelerisque.`,
+    description2: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,

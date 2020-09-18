@@ -19,7 +19,8 @@ const Project: React.FC = () => {
             <div className="project-text">
               <Fade left duration={1000} delay={700} distance="30px">
                 <h3>{project.title}</h3>
-                <p>{project.description}</p>
+                <p>{project.description1}</p>
+                <p>{project.description2}</p>
                 <div>
                   <Cta href={project.liveUrl}>Veja Online</Cta>
                   <Link href={project.sourceUrl}>Código Fonte</Link>

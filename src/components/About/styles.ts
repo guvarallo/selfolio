@@ -27,7 +27,7 @@ export const Container = styled.div`
       text-align: center;
 
       img {
-        max-width: 60%;
+        max-width: 50%;
         transition: 0.7s ease-in-out;
         filter: grayscale(100%);
 

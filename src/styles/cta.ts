@@ -5,8 +5,8 @@ export const Cta = styled.a`
   display: inline-block;
   position: relative;
   margin-top: 1em;
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: 1.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   line-height: 1;
   z-index: 1;
@@ -63,22 +63,22 @@ export const Cta = styled.a`
   /* Responsive layouts */
 
   @media (max-width: 1800px) {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+
+  @media (max-width: 1200px) {
     font-size: 1.2rem;
     padding: 0.8rem;
   }
 
-  @media (max-width: 1200px) {
+  @media (max-width: 800px) {
     font-size: 0.8rem;
     padding: 0.6rem;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     font-size: 0.6rem;
     padding: 0.5rem;
-  }
-
-  @media (max-width: 600px) {
-    font-size: 0.4rem;
-    padding: 0.3rem;
   }
 `;
