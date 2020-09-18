@@ -22,14 +22,30 @@ const Project: React.FC = () => {
                 <p>{project.description1}</p>
                 <p>{project.description2}</p>
                 <div>
-                  <Cta href={project.liveUrl}>{project.liveButtonText}</Cta>
-                  <Link href={project.sourceUrl}>{project.sourceText}</Link>
+                  <Cta
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href={project.liveUrl}
+                  >
+                    {project.liveButtonText}
+                  </Cta>
+                  <Link
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href={project.sourceUrl}
+                  >
+                    {project.sourceText}
+                  </Link>
                 </div>
               </Fade>
             </div>
             <Fade right duration={1000} delay={1100} distance="30px">
               <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5}>
-                <a href={project.sourceUrl}>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href={project.sourceUrl}
+                >
                   <img src={project.img.src} alt="project" />
                 </a>
               </Tilt>

@@ -50,9 +50,9 @@ export const projectData = [
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
-    liveUrl: '!#',
+    liveUrl: 'https://angry-lamport-83b6a1.netlify.app/',
     liveButtonText: 'See it live',
-    sourceUrl: '!#',
+    sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
     img: { src: project1 },
   },
@@ -64,9 +64,9 @@ export const projectData = [
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
-    liveUrl: '!#',
+    liveUrl: 'https://angry-lamport-83b6a1.netlify.app/',
     liveButtonText: 'See it live',
-    sourceUrl: '!#',
+    sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
     img: { src: project2 },
   },
@@ -78,9 +78,9 @@ export const projectData = [
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
-    liveUrl: '!#',
+    liveUrl: 'https://angry-lamport-83b6a1.netlify.app/',
     liveButtonText: 'See it live',
-    sourceUrl: '!#',
+    sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
     img: { src: project3 },
   },
@@ -89,10 +89,10 @@ export const projectData = [
 export const contactData = {
   title: 'Contact',
   description: 'Send me an e-mail!',
-  mailTo: 'mailto:test@test.com',
+  mailTo: 'mailto:gustavo@varallo.me',
 };
 
 export const FooterData = {
-  githubUrl: '#!',
-  linkedinUrl: '#!',
+  githubUrl: 'https://github.com/guvarallo',
+  linkedinUrl: 'https://www.linkedin.com/in/gustavovarallo/',
 };
