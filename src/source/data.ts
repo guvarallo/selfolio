@@ -50,7 +50,7 @@ export const projectData = [
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
-    liveUrl: 'https://angry-lamport-83b6a1.netlify.app/',
+    liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
@@ -64,7 +64,7 @@ export const projectData = [
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
-    liveUrl: 'https://angry-lamport-83b6a1.netlify.app/',
+    liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
@@ -78,7 +78,7 @@ export const projectData = [
     Suspendisse rhoncus lectus vitae pulvinar scelerisque. Donec sed
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
-    liveUrl: 'https://angry-lamport-83b6a1.netlify.app/',
+    liveUrl: 'https://selfolio.netlify.app/',
     liveButtonText: 'See it live',
     sourceUrl: 'https://github.com/guvarallo/selfolio',
     sourceText: 'Source Code',
