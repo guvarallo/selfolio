@@ -19,7 +19,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin: 2rem 2rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 
     div {
       flex: 1;
@@ -39,8 +39,8 @@ export const Container = styled.div`
 
       p {
         font-size: 1.5rem;
-        margin: 1em 0;
-        text-align: left;
+        margin: 1em;
+        text-align: justify;
         font-weight: 400;
       }
     }
@@ -101,6 +101,7 @@ export const Container = styled.div`
 
     p {
       font-size: 0.8rem !important;
+      margin: 1rem;
     }
   }
 `;

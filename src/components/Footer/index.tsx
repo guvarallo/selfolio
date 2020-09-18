@@ -43,10 +43,10 @@ const Footer: React.FC = () => {
       </div>
       <hr />
 
-      {/* Se puder deixar meus créditos agradeço! :) */}
+      {/* If you enjoyed this template, please leave my credits here! :) */}
 
       <span className="copyright">
-        © {new Date().getFullYear()} - Template desenvolvido por
+        © {new Date().getFullYear()} - Template developed by
         <a
           href="https://github.com/guvarallo"
           rel="noopener noreferrer"

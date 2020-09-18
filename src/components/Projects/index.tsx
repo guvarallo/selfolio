@@ -5,13 +5,13 @@ import Tilt from 'react-parallax-tilt';
 import { Container, Link } from './styles';
 import { Cta } from '../../styles/cta';
 
-import { projectData } from '../../source/data';
+import { projectData, projectSectionTitle } from '../../source/data';
 
 const Project: React.FC = () => {
   return (
     <Container>
       <Fade left duration={1000} delay={300} distance="30px">
-        <h1>Projetos</h1>
+        <h1>{projectSectionTitle}</h1>
       </Fade>
       {projectData.map((project) => (
         <>
@@ -22,8 +22,8 @@ const Project: React.FC = () => {
                 <p>{project.description1}</p>
                 <p>{project.description2}</p>
                 <div>
-                  <Cta href={project.liveUrl}>Veja Online</Cta>
-                  <Link href={project.sourceUrl}>Código Fonte</Link>
+                  <Cta href={project.liveUrl}>{project.liveButtonText}</Cta>
+                  <Link href={project.sourceUrl}>{project.sourceText}</Link>
                 </div>
               </Fade>
             </div>

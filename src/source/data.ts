@@ -12,18 +12,19 @@ export const colors = {
 };
 
 export const headData = {
-  title: 'Fulano | Programador',
-  description: 'Bem vindo ao site do Fulano de Tal',
+  title: 'Name | Web developer',
+  description: 'Welcome to my website',
 };
 
 export const mainData = {
-  title: 'Olá, meu nome é ',
-  name: 'Fulano de Tal',
-  subtitle: 'Eu sou programador web',
-  cta: 'Saiba mais',
+  title: 'Hi, my name is ',
+  name: 'Full Name',
+  subtitle: 'I am a web developer',
+  cta: 'Know more',
 };
 
 export const aboutData = {
+  sectionTitle: 'About',
   img: { src: profilePicture },
   p1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus blandit 
   vehicula lectus. Suspendisse potenti. Ut eget odio eget dolor maximus pharetra 
@@ -38,9 +39,11 @@ export const aboutData = {
   dignissim. In tristique mi ut mi vulputate convallis.`,
 };
 
+export const projectSectionTitle = 'Projects';
+
 export const projectData = [
   {
-    title: 'Projeto 1',
+    title: 'Project 1',
     description1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Suspendisse rhoncus lectus vitae pulvinar scelerisque.`,
     description2: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -48,11 +51,13 @@ export const projectData = [
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
     liveUrl: '!#',
+    liveButtonText: 'See it live',
     sourceUrl: '!#',
+    sourceText: 'Source Code',
     img: { src: project1 },
   },
   {
-    title: 'Projeto 2',
+    title: 'Project 2',
     description1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Suspendisse rhoncus lectus vitae pulvinar scelerisque.`,
     description2: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -60,11 +65,13 @@ export const projectData = [
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
     liveUrl: '!#',
+    liveButtonText: 'See it live',
     sourceUrl: '!#',
+    sourceText: 'Source Code',
     img: { src: project2 },
   },
   {
-    title: 'Projeto 3',
+    title: 'Project 3',
     description1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     Suspendisse rhoncus lectus vitae pulvinar scelerisque.`,
     description2: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -72,13 +79,16 @@ export const projectData = [
     gravida elit. Duis vel placerat sem, ac condimentum orci. Ut
     scelerisque magna sit amet ex condimentum varius.`,
     liveUrl: '!#',
+    liveButtonText: 'See it live',
     sourceUrl: '!#',
+    sourceText: 'Source Code',
     img: { src: project3 },
   },
 ];
 
 export const contactData = {
-  description: 'Me envie um email!',
+  title: 'Contact',
+  description: 'Send me an e-mail!',
   mailTo: 'mailto:test@test.com',
 };
 

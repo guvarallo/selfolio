@@ -5,12 +5,12 @@ import { aboutData } from '../../source/data';
 import { Container } from './styles';
 
 const About: React.FC = () => {
-  const { img, p1, p2, p3 } = aboutData;
+  const { sectionTitle, img, p1, p2, p3 } = aboutData;
 
   return (
     <Container id="about">
       <Fade duration={1000} delay={300} distance="30px">
-        <h1>Sobre</h1>
+        <h1>{sectionTitle}</h1>
       </Fade>
       <section>
         <Fade duration={1000} delay={700} distance="30px">
