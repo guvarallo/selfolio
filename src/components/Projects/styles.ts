@@ -6,6 +6,7 @@ export const Container = styled.section`
   text-align: center;
   align-items: center;
   margin: 2rem 2rem;
+  padding-bottom: 3rem;
 
   h1 {
     text-align: center;
