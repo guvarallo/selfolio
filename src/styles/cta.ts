@@ -5,8 +5,8 @@ export const Cta = styled.a`
   display: inline-block;
   position: relative;
   margin-top: 1em;
-  padding: 2rem;
-  font-size: 2.5rem;
+  padding: 1.7rem;
+  font-size: 2.2rem;
   font-weight: bold;
   line-height: 1;
   z-index: 1;

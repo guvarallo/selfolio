@@ -10,14 +10,14 @@ export const Outdoor = styled.section`
   justify-content: center;
   align-items: flex-start;
   background: #fff;
-  font-size: 4.8rem;
+  font-size: 4rem;
   font-weight: bold;
   z-index: -1;
 
   h1 {
     white-space: nowrap;
     max-width: fit-content;
-    font-size: 4.8rem;
+    font-size: 4rem;
     font-weight: bold;
   }
 
