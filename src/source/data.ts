@@ -6,8 +6,8 @@ import project3 from '../assets/project3.png';
 
 export const colors = {
   first: '#232122',
-  second: '#fd3c3c',
-  third: '#138d90',
+  second: '#b3c100',
+  third: '#4cb5f5',
   fourth: '#dddede',
 };
 
