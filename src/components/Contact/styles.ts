@@ -95,27 +95,27 @@ export const Container = styled.div`
     }
 
     div {
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
 
     a {
-      font-size: 0.8rem !important;
-      padding: 0.6rem !important;
+      font-size: 1rem !important;
+      padding: 0.7rem !important;
     }
   }
 
   @media (max-width: 600px) {
     h1 {
-      font-size: 1.8rem !important;
+      font-size: 2rem !important;
     }
 
     div {
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
 
     a {
-      font-size: 0.6rem !important;
-      padding: 0.5rem !important;
+      font-size: 0.8rem !important;
+      padding: 0.6rem !important;
     }
   }
 `;

@@ -73,12 +73,12 @@ export const Cta = styled.a`
   }
 
   @media (max-width: 800px) {
-    font-size: 0.8rem;
-    padding: 0.6rem;
+    font-size: 1rem;
+    padding: 0.8rem;
   }
 
   @media (max-width: 600px) {
-    font-size: 0.6rem;
-    padding: 0.5rem;
+    font-size: 0.8rem;
+    padding: 0.6rem;
   }
 `;

@@ -88,17 +88,17 @@ export const Container = styled.section`
     }
 
     h3 {
-      font-size: 1.3rem !important;
+      font-size: 1.5rem !important;
     }
 
     p {
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
   }
 
   @media (max-width: 600px) {
     h1 {
-      font-size: 1.8rem !important;
+      font-size: 2rem !important;
     }
 
     h3 {
@@ -106,7 +106,7 @@ export const Container = styled.section`
     }
 
     p {
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
 
     .row {
@@ -151,10 +151,10 @@ export const Link = styled.a`
   }
 
   @media (max-width: 800px) {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   @media (max-width: 600px) {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 `;

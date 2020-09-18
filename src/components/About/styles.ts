@@ -54,7 +54,7 @@ export const Container = styled.div`
     }
 
     p {
-      font-size: 1rem !important;
+      font-size: 1.2rem !important;
     }
   }
 
@@ -64,7 +64,7 @@ export const Container = styled.div`
     }
 
     p {
-      font-size: 1rem !important;
+      font-size: 1.2rem !important;
     }
   }
 
@@ -74,7 +74,7 @@ export const Container = styled.div`
     }
 
     p {
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
     }
   }
 
@@ -96,11 +96,11 @@ export const Container = styled.div`
     }
 
     h1 {
-      font-size: 1.8rem !important;
+      font-size: 2rem !important;
     }
 
     p {
-      font-size: 0.8rem !important;
+      font-size: 1rem !important;
       margin: 1rem;
     }
   }
