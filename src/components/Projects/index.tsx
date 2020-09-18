@@ -22,13 +22,15 @@ const Project: React.FC = () => {
                 <p>{project.description1}</p>
                 <p>{project.description2}</p>
                 <div>
-                  <Cta
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href={project.liveUrl}
-                  >
-                    {project.liveButtonText}
-                  </Cta>
+                  {project.liveUrl && (
+                    <Cta
+                      rel="noopener noreferrer"
+                      target="_blank"
+                      href={project.liveUrl}
+                    >
+                      {project.liveButtonText}
+                    </Cta>
+                  )}
                   <Link
                     rel="noopener noreferrer"
                     target="_blank"
