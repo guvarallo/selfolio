@@ -10,12 +10,14 @@ export const Outdoor = styled.section`
   justify-content: center;
   align-items: flex-start;
   background: #fff;
+  font-size: 4.8rem;
   font-weight: bold;
   z-index: -1;
 
   h1 {
     white-space: nowrap;
     max-width: fit-content;
+    font-size: 4.8rem;
     font-weight: bold;
   }
 
@@ -47,7 +49,6 @@ export const Outdoor = styled.section`
 
   .text-typing {
     overflow: hidden;
-    font-size: 1.3em;
     white-space: nowrap;
     max-width: fit-content;
     border-right: 0.5em solid black;
@@ -70,6 +71,41 @@ export const Outdoor = styled.section`
     }
     50% {
       border-color: ${colors.first};
+    }
+  }
+
+  /* Responsive layouts */
+
+  @media (max-width: 1800px) {
+    font-size: 3rem !important;
+
+    h1 {
+      font-size: 3rem !important;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 2rem !important;
+
+    h1 {
+      font-size: 2rem !important;
+    }
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.5rem !important;
+
+    h1 {
+      font-size: 1.5rem !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    margin-left: 2em;
+    font-size: 1rem !important;
+
+    h1 {
+      font-size: 1rem !important;
     }
   }
 `;

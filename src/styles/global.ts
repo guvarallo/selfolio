@@ -7,12 +7,9 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-  }
-
-  html {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5vw;
-    color: ${colors.first};
+    /* font-size: 62.5%;
+    color: ${colors.first}; */
   }
 
   body {
