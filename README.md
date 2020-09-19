@@ -22,7 +22,9 @@ You can also check my own website as a variation of this template **[varallo.me]
 </div>
 
 <div align="center">
-  ![Selfolio Demo](src/assets/demo.gif)
+
+![Selfolio Demo](src/assets/demo.gif)
+
 </div>
 
 ## Features
