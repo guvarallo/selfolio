@@ -1,13 +1,18 @@
-<img src="public/favicon.ico" width="30" />
-<h1>Selfolio</h1>
+<p align="center">
+  <img src="public/favicon.ico" width="30" />
+</p>
+<h1 align="center">Selfolio</h1>
 <br/>
 <br/>
 
+<div align="center">
+  
 [![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=009387)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/91be6d51-ba25-46e9-9844-dca148c6e0ba/deploy-status)](https://app.netlify.com/sites/selfolio/deploys)
-</center>
 
-<h2>A simple web portfolio made for devs</h2>
+</div>
+
+<h2 align="center">A simple web portfolio made for devs</h2>
 
 Check it out live by **[clicking here](https://selfolio.netlify.app/)**.  
 You can also check my own website as a variation of this template **[varallo.me](https://www.varallo.me/)**.
