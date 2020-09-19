@@ -57,7 +57,7 @@ All you need to do to change the texts and colors is open the data.ts file, foun
 import profilePicture from '../assets/profile.png';
 ```
 Simply add your own picture in the **src/assets** and remove the default one.  
-IMPORTANT: Name your picture as **profile.png** like the above example.
+IMPORTANT: Name your picture as **profile.png** like the example above.
 
 ### Projects Pictures
 ```
@@ -110,8 +110,8 @@ In hac habitasse platea dictumst. Cras ornare feugiat odio, at pharetra ante
 elementum sit amet. In aliquet purus ut mauris auctor, quis commodo libero 
 dignissim. In tristique mi ut mi vulputate convallis.`,
 ```
-This section was built to have maximum 3 paragraphs on purpose. Be concise to talk
-about yourself is an important skill =) If you want less, just leave as an empty string, but do not delete the key.
+This section was built to have a maximum of 3 paragraphs on purpose. Be concise to talk
+about yourself is an important skill =) If you want less, just leave it as an empty string, but do not delete the key.
 
 ### Project Data
 ```
@@ -130,8 +130,8 @@ about yourself is an important skill =) If you want less, just leave as an empty
   img: { src: project1 },
 },
 ```
-You will notice that this is an array of objects. If you want to display more projects, just keep copying and pasting more objects followed by a comma - just 
-don't forget to add the project's picture in the assets folder and update the img field correctly.
+You will notice that this is an array of objects. If you want to display more projects, just keep copying and pasting more objects followed by a comma - don't forget to add the project's picture in the assets folder and update the img field correctly.  
+IMPORTANT: If you don't have your project live somewhere, simply leave both 'liveUrl' and 'liveButtonText' as an empty string. Do not delete them.
 
 ### Contact Data
 ```
