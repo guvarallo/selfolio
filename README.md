@@ -12,13 +12,18 @@
 
 </div>
 
-<h2 align="center">A simple web portfolio made for devs</h2>
+<h3 align="center">A simple web portfolio made for devs</h3>
 
-Check it out live by **[clicking here](https://selfolio.netlify.app/)**.  
-You can also check my own website as a variation of this template **[varallo.me](https://www.varallo.me/)**.
+<p align="center">
+  Check it out live by **[clicking here](https://selfolio.netlify.app/)**.  
+  You can also check my own website as a variation of this template **[varallo.me](https://www.varallo.me/)**.
+</p>
 
-
+<div align="center">
+  
 ![Selfolio Demo](src/assets/demo.gif)
+
+</div>
 
 ## Features
 <ul>
