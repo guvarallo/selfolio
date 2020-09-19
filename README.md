@@ -1,6 +1,5 @@
-<center>
+<img src="public/favicon.ico" width="30" />
 <h1>Selfolio</h1>
-<img src="public/favicon.ico" width="30">
 <br/>
 <br/>
 
@@ -8,9 +7,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/91be6d51-ba25-46e9-9844-dca148c6e0ba/deploy-status)](https://app.netlify.com/sites/selfolio/deploys)
 </center>
 
-<center><h2>A simple web portfolio made for devs</h2></center>
-
----
+<h2>A simple web portfolio made for devs</h2>
 
 Check it out live by **[clicking here](https://selfolio.netlify.app/)**.  
 You can also check my own website as a variation of this template **[varallo.me](https://www.varallo.me/)**.
