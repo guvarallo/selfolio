@@ -37,8 +37,6 @@ You can also check my own website as a variation of this template **[varallo.me]
 </ul>
 
 ## Instalation
-Clone this repository, then:
-
 ```
 npm install
 
