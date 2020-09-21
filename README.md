@@ -54,7 +54,7 @@ All you need to do to change the texts and colors is open the data.ts file, foun
 ```
 import profilePicture from '../assets/profile.png';
 ```
-Simply add your own picture in the **src/assets** and remove the default one.  
+Simply add your own picture in the **src/assets** folder and remove the default one.  
 IMPORTANT: Name your picture as **profile.png** like the example above.
 
 ### Projects Pictures
