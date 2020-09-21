@@ -63,7 +63,7 @@ import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
 ```
-Likewise, just add your own project pictures in the **src/assets** and remove the default ones.  
+Likewise, just add your own project pictures in the **src/assets** folder and remove the default ones.  
 IMPORTANT: Name your pictures as **project1.png**, **project2.png** and so on.
 
 ### Colors
