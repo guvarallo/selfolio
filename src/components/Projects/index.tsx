@@ -18,7 +18,7 @@ const Project: React.FC = () => {
           <section className="row">
             <div className="project-text">
               <Fade left duration={1000} delay={700} distance="30px">
-                <h3>{project.title}</h3>
+                <h2>{project.title}</h2>
                 <p>{project.description1}</p>
                 <p>{project.description2}</p>
                 <div>

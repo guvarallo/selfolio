@@ -29,7 +29,7 @@ export const Container = styled.section`
     font-size: 1.5rem;
     max-width: 40%;
 
-    h3 {
+    h2 {
       font-size: 2rem;
       margin-bottom: 1em;
     }
@@ -59,7 +59,7 @@ export const Container = styled.section`
       font-size: 2.5rem !important;
     }
 
-    h3 {
+    h2 {
       font-size: 1.5rem !important;
     }
 
@@ -73,7 +73,7 @@ export const Container = styled.section`
       font-size: 2.5rem !important;
     }
 
-    h3 {
+    h2 {
       font-size: 1.5rem !important;
     }
 
@@ -87,7 +87,7 @@ export const Container = styled.section`
       font-size: 2.2rem !important;
     }
 
-    h3 {
+    h2 {
       font-size: 1.5rem !important;
     }
 
@@ -101,7 +101,7 @@ export const Container = styled.section`
       font-size: 2rem !important;
     }
 
-    h3 {
+    h2 {
       font-size: 1.3rem !important;
     }
 
