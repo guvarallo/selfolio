@@ -29,7 +29,7 @@ You can also check my own website as a variation of this template **[varallo.me]
 
 <div align="center">
 
-<p>Achives the highest* Lighthouse performance score in production.</br> 
+<p>Achieves the highest* Lighthouse performance score in production.</br> 
 *It is 99 from 100 performance only due to default images, not relevant to change for the live demo!</p>
 
 ![Selfolio Lighthouse](src/assets/lighthouse.png)
