@@ -40,7 +40,7 @@ You can also check my own website as a variation of this template **[varallo.me]
 <ul>
   <li>Single page app</li>
   <li>Easy to change data & colors</li>
-  <li>Lightweight with minimum dependecies</li>
+  <li>Lightweight with minimum dependencies</li>
   <li>Built from scratch entirely with React & TypeScript</li>
   <li>Fully responsive - built in pure CSS with Styled Components</li>
 </ul>
