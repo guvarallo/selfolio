@@ -22,12 +22,17 @@ const Footer: React.FC = () => {
   return (
     <Container id="Footer">
       <br />
-      <a href="#!" onClick={() => scrollTo(document.getElementById('main'))}>
+      <a
+        href="#!"
+        aria-label="Go Up"
+        onClick={() => scrollTo(document.getElementById('main'))}
+      >
         <FontAwesomeIcon id="up" icon={faChevronUp} size="1x" />
       </a>
       <div>
         <a
           href={FooterData.githubUrl}
+          aria-label="GitHub Link"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -35,6 +40,7 @@ const Footer: React.FC = () => {
         </a>
         <a
           href={FooterData.linkedinUrl}
+          aria-label="LinkedIn Link"
           rel="noopener noreferrer"
           target="_blank"
         >
