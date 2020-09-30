@@ -7,8 +7,9 @@
 
 <div align="center">
   
-[![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=009387)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md)
+[![GitHub](https://img.shields.io/github/license/cobidev/simplefolio?color=brightgreen)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/91be6d51-ba25-46e9-9844-dca148c6e0ba/deploy-status)](https://app.netlify.com/sites/selfolio/deploys)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 </div>
 
